@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CATSY</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap" rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9c90a0c7ee.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- #1 Top -->
+  <section class="top-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- <a class="navbar-brand" href="">catsy</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link navigation-name" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navigation-name" href="#menu">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navigation-name" href="#location">LOCATION</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- top bar image -->
+      <img src="images/catsy_logo_top.png" alt="logo-img" class="logo">
+
+    </div>
+
+  </section>
+
+
+  <!-- #2 Carousel images -->
+  <section class="carousel" id="featured-images">
+
+    <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="false">
+
+      <div class="carousel-inner">
+
+
+        <!-- First Image -->
+        <div class="carousel-item active" data-bs-interval="4000">
+          <div class="d-flex justify-content-center">
+            <img class="featured-img" src="images/featured_photos_1.png" alt="featured-img1">
+          </div>
+        </div>
+
+        <!-- Second Image -->
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center" data-bs-interval="4000">
+            <img class="featured-img" src="images/featured_photos_2.png" alt="featured-img2">
+          </div>
+        </div>
+
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+
+      </div>
+
+  </section>
+
+
+  <!-- #2 ABOUT -->
+  <section class="no-colored-section" id="about">
+
+    <!-- <h2 class="section-title">ABOUT</h2> -->
+
+    <div class="about-container">
+      <img src="images/sassy_cat.png" alt="sassy-cat-img" class="sassy-cat-img">
+      <p class="about-texts">Catsy is a new food truck brand in Los Angeles and Orange County
+        that makes unique, eye-catching cat-shaped sandwiches inspired
+        by Japanese cat-shaped bread loaves and Korean-style toasts.
+        The brand’s name is a combined word of “cat” and “sassy” and
+        designed to remind customers of cats being able to act both “cute” and “humorous.”
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- #3 Menu -->
+  <section class="menu-section" id="menu">
+
+    <h2 class="section-title">MENU</h2>
+
+    <div class="row menu-container">
+
+      <div class="col-lg-3 menu-col">
+        <h3 class="menu-name">Grilled Chicken</h3>
+        <img src="images/menu_chicken.png" alt="menu-grilled-chicken-img" class="menu-images">
+        <p class="feature-p">Savory grilled chicken, cheese, tomatoes, and lettuce with honey mastard</p>
+      </div>
+
+      <div class="col-lg-3 menu-col">
+        <h3 class="menu-name">Bulgogi</h3>
+        <img src="images/menu_bulgogi.png" alt="menu-bulgogi-img" class="menu-images">
+        <p class="feature-p">Sizzling, mouth-watering bulgogi(Korean grilled beef) and fresh lettuce</p>
+      </div>
+
+      <div class="col-lg-3 menu-col">
+        <h3 class="menu-name">Banana French Toast</h3>
+        <img src="images/menu_banana.png" alt="menu-french-toast-img" class="menu-images">
+        <p class="feature-p">Golden colored french toast with salty and sweet caramelizedbananas</p>
+      </div>
+
+      <div class="col-lg-3 menu-col">
+        <h3 class="menu-name">Eggs & Bacon</h3>
+        <img src="images/menu_hamegg.png" alt="menu-ham-egg-img" class="menu-images">
+        <p class="feature-p">Korean-style fluffy scrambled eggs and bacons with mozzarella cheese</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- #5 Location -->
+  <section class="no-colored-section" id="location">
+
+    <!-- <h2 class="section-title">LOCATION</h2> -->
+
+    <!-- Google Map  -->
+
+    <div class="location-container">
+
+
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.614156336642!2d-118.24245385644053!3d34.04805160969136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6370b85b397%3A0x8874776f8e618265!2sLittle%20Tokyo!5e0!3m2!1sen!2sus!4v1648009971106!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          <h3 class="location-name">Little Tokyo</h3>
+          <p class="location-info">Monday to Sunday: 9AM - 5PM</p>
+          <p class="location-info">(213) 333 333</p>
+
+      </div>
+
+      <div class="col-lg-6">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13284.071111335506!2d-117.75553676509547!3d33.65670124144459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd57c815c0a9%3A0xbd7436c85d56ff02!2sIrvine%20Spectrum%20Center%2C%20Irvine%2C%20CA%2092618!5e0!3m2!1sen!2sus!4v1648010046113!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <h3 class="location-name">Irvine Spectrum Center</h3>
+          <p class="location-info">Monday to Saturday: 10AM - 8PM
+            <br>
+            Sunday: 11AM - 7PM
+          </p>
+          <p class="location-info">(714) 333 333</p>
+
+      </div>
+
+
+  </section>
+
+
+  <!-- #5.5 Pattern -->
+  <img src="images/pattern.png" alt="">
+
+
+  <!-- #6 Footer -->
+  <footer class="footer-section" id="footer">
+
+    <!-- social media handling -->
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+
+    <p class="copyright">©Copyright 2022 CATSY</p>
+
+  </footer>
+
+</body>
+
+</html>
