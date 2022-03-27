@@ -1,0 +1,158 @@
+/************ Tag Selector **************/
+body{
+  background-color: #F9F4EA;
+}
+
+h2{
+  font-family: 'Chelsea Market', cursive;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #FFFF;
+}
+
+h3{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1.25rem;
+  color: #753920;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Athiti', sans-serif;
+  color: #753920;
+}
+
+/************ Class Selector ************/
+
+/* TOP */
+
+.logo{
+  display: block;
+  margin-left: 25px;
+  padding-bottom: 10px;
+  width: 8%;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar{
+  background-color: #BF654D;
+  padding: 3.6% 0 0 10%;
+  position: absolute;
+
+}
+
+.nav-item{
+  /* font-family: 'Chelsea Market', cursive; */
+  font-family: 'Athiti', sans-serif;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  padding: 0 18px;
+  letter-spacing: 2.5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #753920;
+}
+
+.container-fluid{
+  padding: 0;
+  background-color: #BF654D;
+}
+
+/* Featured Images */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+/* ABOUT */
+.about-container{
+  margin: 50px auto;
+  width: 75%;
+  padding: 50px;
+}
+
+.sassy-cat-img{
+  float: left;
+  width: 35%;
+  padding: 0 50px 30px 0;
+}
+
+.about-texts{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+
+/* MENU */
+
+.menu-section{
+  background-color: #ECA06C;
+  padding: 50px 0;
+}
+
+.menu-container{
+  margin: 50px 50px 25px;
+}
+
+.menu-images{
+  width: 80%;
+  margin-left: 30px;
+}
+
+.feature-p{
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+/* LOCATION */
+
+.location-container{
+  width: 90%;
+  margin: 100px 80px 50px 70px;
+}
+
+.map{
+  padding-left: 50px;
+}
+
+.location-name{
+  margin-top: 25px;
+}
+
+.location-info{
+  text-align: center;
+}
+
+
+/* FOOTER */
+
+.footer-section{
+  background-color: #BF654D;
+  /* padding-top: 50px; */
+  padding: 3% 43%;
+}
+
+.footer-icon{
+  margin: 20px 10px 20px 15px;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.copyright{
+  color: #FFFF;
+  text-align: center;
+  margin-top: 15px;
+}
